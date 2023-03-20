@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "notebooks"
+version = "0.1.0"
+description = ""
+authors = ["Francesco Camillini <francesco.camillini@abilio.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^3.6.1"
+seaborn = "^0.12.2"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
